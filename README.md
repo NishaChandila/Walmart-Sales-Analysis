@@ -115,6 +115,6 @@ You can view my SQL project, where I perform analyses on these questions, at the
 10. Which day of the week has the best average ratings per branch?
 
 
-##Dataset and Project Links
+## Dataset and Project Links
 [Dataset Link: Kaggle Walmart Sales Forecasting Competition](https://github.com/NishaChandila/Walmart_sales/blob/main/WalmartSalesData.csv.csv)
 [SQL Project Link: Link to SQL Project](https://github.com/NishaChandila/Walmart_sales/blob/main/walmart.sql)
