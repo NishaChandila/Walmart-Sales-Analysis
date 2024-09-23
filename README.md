@@ -34,6 +34,8 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]
 | gross_income            | Gross Income                            | DECIMAL(10, 2) |
 | rating                  | Rating                                  | FLOAT(2, 1)    |
 
+Dataset Link: https://github.com/NishaChandila/Walmart_sales/blob/main/WalmartSalesData.csv.csv
+
 ### Analysis List
 
 1. Product Analysis
@@ -109,3 +111,5 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]
 8. Which time of the day do customers give most ratings per branch?
 9. Which day fo the week has the best avg ratings?
 10. Which day of the week has the best average ratings per branch?
+
+You can view my SQL project, where I perform analyses on these questions, at the following link: [View my SQL Project](https://github.com/NishaChandila/Walmart_sales/blob/main/walmart.sql)
