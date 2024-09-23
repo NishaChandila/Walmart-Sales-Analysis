@@ -116,5 +116,6 @@ You can view my SQL project, where I perform analyses on these questions, at the
 
 
 ## Dataset and Project Links
-[Dataset Link: Kaggle Walmart Sales Forecasting Competition](https://github.com/NishaChandila/Walmart_sales/blob/main/WalmartSalesData.csv.csv)
-[SQL Project Link: Link to SQL Project](https://github.com/NishaChandila/Walmart_sales/blob/main/walmart.sql)
+**Dataset Link:** [Kaggle Walmart Sales Forecasting Competition](https://github.com/NishaChandila/Walmart_sales/blob/main/WalmartSalesData.csv.csv)
+
+**SQL Project Link:** [Link to SQL Project](https://github.com/NishaChandila/Walmart_sales/blob/main/walmart.sql)
