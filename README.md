@@ -72,6 +72,8 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]
 
 ## Business Questions To Answer
 
+You can view my SQL project, where I perform analyses on these questions, at the following link: [View my sql project here](https://github.com/NishaChandila/Walmart_sales/blob/main/walmart.sql)
+
 ### Generic Question
 
 1. How many unique cities does the data have?
@@ -112,4 +114,7 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]
 9. Which day fo the week has the best avg ratings?
 10. Which day of the week has the best average ratings per branch?
 
-You can view my SQL project, where I perform analyses on these questions, at the following link: [View my SQL Project](https://github.com/NishaChandila/Walmart_sales/blob/main/walmart.sql)
+
+##Dataset and Project Links
+[Dataset Link: Kaggle Walmart Sales Forecasting Competition](https://github.com/NishaChandila/Walmart_sales/blob/main/WalmartSalesData.csv.csv)
+[SQL Project Link: Link to SQL Project](https://github.com/NishaChandila/Walmart_sales/blob/main/walmart.sql)
