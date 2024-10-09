@@ -4,6 +4,7 @@
 
 "In retail, you can never stand still. You have to be changing, evolving, and moving forward."
 This project analyses three months of Walmart sales data from January to March, focusing on three key branches located in Yangon, Mandalay, and Naypyitaw. The dataset includes vital metrics such as product lines, cost of goods sold (COGS), tax, quantity sold, and unit price. Through this analysis, we aim to gain insights into sales performance, customer behaviors, and product trends, allowing us to make informed decisions that enhance marketing strategies and drive revenue growth.  
+
 The **SQL queries utilized to inspect and perform quality check can be found [here](#)**.  
 The **Dataset used here can be found [here](#)**.  
 The **Power BI dashboard can be found [here](#)**.
@@ -39,13 +40,16 @@ The **Dataset used here can be found [here](#)**.
 This project analyzes three months of Walmart sales data, focusing on three key branches located in Yangon, Mandalay, and Naypyitaw. The dataset spans from January to March and includes detailed information on product lines, cost of goods sold (COGS), customer demographics, sales quantities, and unit prices.  
 The primary goal of this analysis is to provide insights into sales performance, customer behavior, and product trends. By leveraging Power BI, we have built an interactive dashboard that visualizes these trends in an intuitive and actionable way, enabling stakeholders to make informed business decisions.
 
-![Key Insights Visualization](path/to/key_insights_image.png)
+
 
 **Key Insights:**
 
 1. **Sales Performance**: January saw the strongest sales, generating $116K in revenue, while February experienced the lowest with $97K. Evening sales were the highest-performing time of day, contributing significantly to overall revenue.
-2. **Customer Insights**: Members contributed the most to overall revenue, with a strong female presence in this group. Targeted marketing strategies and loyalty programs could further increase engagement and sales.
-3. **Product Insights**: The Food and Beverages product line generated the highest revenue, with a total of $56.1K and the highest customer satisfaction rating. However, there was a noticeable decline in Sports and Travel category sales in February, which rebounded in March.
+
+![Sales Performance]([path/to/key_insights_image.png](https://github.com/NishaChandila/project-assets/blob/main/walmart1.jpg))
+
+3. **Customer Insights**: Members contributed the most to overall revenue, with a strong female presence in this group. Targeted marketing strategies and loyalty programs could further increase engagement and sales.
+4. **Product Insights**: The Food and Beverages product line generated the highest revenue, with a total of $56.1K and the highest customer satisfaction rating. However, there was a noticeable decline in Sports and Travel category sales in February, which rebounded in March.
 
 The **SQL queries utilized to inspect and perform quality check can be found [here](#)**.  
 The **Power BI dashboard can be found [here](#)**.
