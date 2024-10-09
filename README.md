@@ -5,9 +5,9 @@
 "In retail, you can never stand still. You have to be changing, evolving, and moving forward."
 This project analyses three months of Walmart sales data from January to March, focusing on three key branches located in Yangon, Mandalay, and Naypyitaw. The dataset includes vital metrics such as product lines, cost of goods sold (COGS), tax, quantity sold, and unit price. Through this analysis, we aim to gain insights into sales performance, customer behaviors, and product trends, allowing us to make informed decisions that enhance marketing strategies and drive revenue growth.  
 
-The **SQL queries utilized to inspect and perform quality check can be found [here](#)**.  
-The **Dataset used here can be found [here](#)**.  
-The **Power BI dashboard can be found [here](#)**.
+The **SQL queries utilized to inspect and perform quality check can be found [https://github.com/NishaChandila/Walmart_sales/blob/main/walmart.sql](#)**.  
+The **Dataset used here can be found [https://github.com/NishaChandila/Walmart_sales/blob/main/WalmartSalesData.csv.csv](#)**.  
+The **Power BI dashboard can be found [https://github.com/NishaChandila/Walmart_sales/blob/main/Walmart-Sales-Dashboard.pdf](#)**.
 
 ## DATASET STRUCTURE
 
@@ -33,7 +33,7 @@ The dataset comprises three months of sales data from Walmart, specifically from
 
 ![Dataset Structure Visualization](path/to/dataset_image.png)
 
-The **Dataset used here can be found [here](#)**.
+The **Dataset used here can be found [https://github.com/NishaChandila/Walmart_sales/blob/main/WalmartSalesData.csv.csv](#)**.
 
 ## EXECUTIVE SUMMARY
 
@@ -51,8 +51,8 @@ The primary goal of this analysis is to provide insights into sales performance,
 3. **Customer Insights**: Members contributed the most to overall revenue, with a strong female presence in this group. Targeted marketing strategies and loyalty programs could further increase engagement and sales.
 4. **Product Insights**: The Food and Beverages product line generated the highest revenue, with a total of $56.1K and the highest customer satisfaction rating. However, there was a noticeable decline in Sports and Travel category sales in February, which rebounded in March.
 
-The **SQL queries utilized to inspect and perform quality check can be found [here](#)**.  
-The **Power BI dashboard can be found [here](#)**.
+The **SQL queries utilized to inspect and perform quality check can be found [https://github.com/NishaChandila/Walmart_sales/blob/main/walmart.sql](#)**.  
+The **Power BI dashboard can be found [https://github.com/NishaChandila/Walmart_sales/blob/main/Walmart-Sales-Dashboard.pdf](#)**.
 
 ## RECOMMENDATIONS:
 
@@ -69,6 +69,6 @@ The **Power BI dashboard can be found [here](#)**.
 1. **Prioritize Food and Beverages**: Maintain targeted promotions and stock levels in this high-performing category to meet customer demand.
 2. **Analyze Sports and Travel Trends**: Investigate the sales drop in these categories from January to February and develop strategies to boost sales, especially since they rebounded in March.
 
-The **SQL queries utilized to inspect and perform quality check can be found [here](#)**.  
-The **Dataset used here can be found [here](#)**.  
-The **Power BI dashboard can be found [here](#)**.
+The **SQL queries utilized to inspect and perform quality check can be found [https://github.com/NishaChandila/Walmart_sales/blob/main/walmart.sql](#)**.  
+The **Dataset used here can be found [https://github.com/NishaChandila/Walmart_sales/blob/main/WalmartSalesData.csv.csv](#)**.  
+The **Power BI dashboard can be found [https://github.com/NishaChandila/Walmart_sales/blob/main/Walmart-Sales-Dashboard.pdf](#)**.
