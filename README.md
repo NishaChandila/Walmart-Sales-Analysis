@@ -31,7 +31,7 @@ The dataset comprises three months of sales data from Walmart, specifically from
 14. Gross Income: Represents the total revenue minus COGS, highlighting profitability.
 15. Rating: Customer ratings for products, which can be used to gauge satisfaction and product quality.
 
-![Dataset Structure Visualization](path/to/dataset_image.png)
+![Dataset Structure Visualization](https://github.com/NishaChandila/project-assets/blob/main/walmart1.jpg?raw=true)
 
 The **Dataset used here can be found [here](https://github.com/NishaChandila/Walmart_sales/blob/main/WalmartSalesData.csv.csv)**.
 
