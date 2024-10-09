@@ -1,121 +1,70 @@
-# Walmart Sales Data Analysis
+# Walmart Sales Analysis
 
-## About
+## PROJECT BACKGROUND
 
-This project aims to explore the Walmart Sales data to understand top performing branches and products, sales trend of of different products, customer behaviour. The aims is to study how sales strategies can be improved and optimized. The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition].
+"In retail, you can never stand still. You have to be changing, evolving, and moving forward."
+This project analyses three months of Walmart sales data from January to March, focusing on three key branches located in Yangon, Mandalay, and Naypyitaw. The dataset includes vital metrics such as product lines, cost of goods sold (COGS), tax, quantity sold, and unit price. Through this analysis, we aim to gain insights into sales performance, customer behaviors, and product trends, allowing us to make informed decisions that enhance marketing strategies and drive revenue growth.  
+The **SQL queries utilized to inspect and perform quality check can be found [here](#)**.  
+The **Dataset used here can be found [here](#)**.  
+The **Power BI dashboard can be found [here](#)**.
 
-"In this recruiting competition, job-seekers are provided with historical sales data for 45 Walmart stores located in different regions. Each store contains many departments, and participants must project the sales for each department in each store. To add to the challenge, selected holiday markdown events are included in the dataset. These markdowns are known to affect sales, but it is challenging to predict which departments are affected and the extent of the impact.
+## DATASET STRUCTURE
 
-## Purposes Of The Project
+The dataset comprises three months of sales data from Walmart, specifically from January to March, and includes information from three key branches located in Yangon, Mandalay, and Naypyitaw. This comprehensive dataset includes various attributes essential for conducting a thorough analysis of sales performance, customer behavior, and product trends.
 
-The major aim of thie project is to gain insight into the sales data of Walmart to understand the different factors that affect sales of the different branches.
+**Key Attributes:**
 
-## About Data
+1. Invoice ID: A unique identifier for each sale, allowing for easy tracking of individual transactions.
+2. Branch: The specific branch where the sale occurred, enabling geographical analysis of sales performance across locations.
+3. City: The city associated with each branch, providing insights into regional sales trends.
+4. Customer Type: Classifies customers as either "Member" or "Normal," offering insights into purchasing behaviors and loyalty.
+5. Gender: Identifies the gender of the customer, facilitating demographic analysis.
+6. Date: The date when the purchase was made, useful for time-series analysis and identifying sales patterns over months.
+7. Time: The timestamp of the transaction, allowing for analysis of peak sales times throughout the day.
+8. Product Line: Specifies the category of products sold, such as Food and Beverages, Fashion Accessories, or Electronic Accessories.
+9. Unit Price: The price per unit of each product, crucial for revenue calculations.
+10. Quantity: The number of units sold, which contributes to total sales volume.
+11. Total: The total cost of the purchase, calculated by multiplying unit price by quantity.
+12. COGS: The cost of goods sold, providing insights into the profitability of products.
+13. VAT: The value-added tax on each sale, important for understanding overall pricing strategy.
+14. Gross Income: Represents the total revenue minus COGS, highlighting profitability.
+15. Rating: Customer ratings for products, which can be used to gauge satisfaction and product quality.
 
-The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]. This dataset contains sales transactions from a three different branches of Walmart, respectively located in Mandalay, Yangon and Naypyitaw. The data contains 17 columns and 1000 rows:
+![Dataset Structure Visualization](path/to/dataset_image.png)
 
-| Column                  | Description                             | Data Type      |
-| :---------------------- | :-------------------------------------- | :------------- |
-| invoice_id              | Invoice of the sales made               | VARCHAR(30)    |
-| branch                  | Branch at which sales were made         | VARCHAR(5)     |
-| city                    | The location of the branch              | VARCHAR(30)    |
-| customer_type           | The type of the customer                | VARCHAR(30)    |
-| gender                  | Gender of the customer making purchase  | VARCHAR(10)    |
-| product_line            | Product line of the product solf        | VARCHAR(100)   |
-| unit_price              | The price of each product               | DECIMAL(10, 2) |
-| quantity                | The amount of the product sold          | INT            |
-| VAT                 | The amount of tax on the purchase       | FLOAT(6, 4)    |
-| total                   | The total cost of the purchase          | DECIMAL(10, 2) |
-| date                    | The date on which the purchase was made | DATE           |
-| time                    | The time at which the purchase was made | TIMESTAMP      |
-| payment_method                 | The total amount paid                   | DECIMAL(10, 2) |
-| cogs                    | Cost Of Goods sold                      | DECIMAL(10, 2) |
-| gross_margin_percentage | Gross margin percentage                 | FLOAT(11, 9)   |
-| gross_income            | Gross Income                            | DECIMAL(10, 2) |
-| rating                  | Rating                                  | FLOAT(2, 1)    |
+The **Dataset used here can be found [here](#)**.
 
-[Dataset Link: Walmart Sales Dataset](https://github.com/NishaChandila/Walmart_sales/blob/main/WalmartSalesData.csv.csv)
+## EXECUTIVE SUMMARY
 
-### Analysis List
+This project analyzes three months of Walmart sales data, focusing on three key branches located in Yangon, Mandalay, and Naypyitaw. The dataset spans from January to March and includes detailed information on product lines, cost of goods sold (COGS), customer demographics, sales quantities, and unit prices.  
+The primary goal of this analysis is to provide insights into sales performance, customer behavior, and product trends. By leveraging Power BI, we have built an interactive dashboard that visualizes these trends in an intuitive and actionable way, enabling stakeholders to make informed business decisions.
 
-1. Product Analysis
+![Key Insights Visualization](path/to/key_insights_image.png)
 
-> Conduct analysis on the data to understand the different product lines, the products lines performing best and the product lines that need to be improved.
+**Key Insights:**
 
-2. Sales Analysis
+1. **Sales Performance**: January saw the strongest sales, generating $116K in revenue, while February experienced the lowest with $97K. Evening sales were the highest-performing time of day, contributing significantly to overall revenue.
+2. **Customer Insights**: Members contributed the most to overall revenue, with a strong female presence in this group. Targeted marketing strategies and loyalty programs could further increase engagement and sales.
+3. **Product Insights**: The Food and Beverages product line generated the highest revenue, with a total of $56.1K and the highest customer satisfaction rating. However, there was a noticeable decline in Sports and Travel category sales in February, which rebounded in March.
 
-> This analysis aims to answer the question of the sales trends of product. The result of this can help use measure the effectiveness of each sales strategy the business applies and what modificatoins are needed to gain more sales.
+The **SQL queries utilized to inspect and perform quality check can be found [here](#)**.  
+The **Power BI dashboard can be found [here](#)**.
 
-3. Customer Analysis
+## RECOMMENDATIONS:
 
-> This analysis aims to uncover the different customers segments, purchase trends and the profitability of each customer segment.
+**Sales Recommendations:**
+1. **Enhance January Promotions**: Extend successful promotional strategies from January into February to boost sales during slower periods through targeted marketing campaigns and special events.
+2. **Focus on Morning Sales**: Investigate low morning sales and implement promotions or bundles to encourage earlier shopping.
+3. **Leverage Evening Success**: Replicate effective evening sales strategies in the morning and afternoon to increase overall sales.
 
-## Approach Used
+**Customer Recommendations:**
+1. **Strengthen Member Loyalty Programs**: Enhance loyalty initiatives for members, especially focusing on female shoppers, to encourage repeat purchases.
+2. **Targeted Campaigns for Normal Customers**: Create personalized offers for normal customers, particularly males, to convert them into members.
 
-1. **Data Wrangling:** This is the first step where inspection of data is done to make sure **NULL** values and missing values are detected and data replacement methods are used to replace, missing or **NULL** values.
+**Product Recommendations:**
+1. **Prioritize Food and Beverages**: Maintain targeted promotions and stock levels in this high-performing category to meet customer demand.
+2. **Analyze Sports and Travel Trends**: Investigate the sales drop in these categories from January to February and develop strategies to boost sales, especially since they rebounded in March.
 
-> 1. Build a database
-> 2. Create table and insert the data.
-> 3. Select columns with null values in them. There are no null values in our database as in creating the tables, we set **NOT NULL** for each field, hence null values are filtered out.
-
-2. **Feature Engineering:** This will help use generate some new columns from existing ones.
-
-> 1. Add a new column named `time_of_day` to give insight of sales in the Morning, Afternoon and Evening. This will help answer the question on which part of the day most sales are made.
-
-> 2. Add a new column named `day_name` that contains the extracted days of the week on which the given transaction took place (Mon, Tue, Wed, Thur, Fri). This will help answer the question on which week of the day each branch is busiest.
-
-> 3. Add a new column named `month_name` that contains the extracted months of the year on which the given transaction took place (Jan, Feb, Mar). Help determine which month of the year has the most sales and profit.
-
-2. **Exploratory Data Analysis (EDA):** Exploratory data analysis is done to answer the listed questions and aims of this project.
-
-3. **Conclusion:**
-
-## Business Questions To Answer
-
-You can view my SQL project, where I perform analyses on these questions, at the following link: [View my sql project here](https://github.com/NishaChandila/Walmart_sales/blob/main/walmart.sql)
-
-### Generic Question
-
-1. How many unique cities does the data have?
-2. In which city is each branch?
-
-### Product
-
-1. How many unique product lines does the data have?
-2. What is the most common payment method?
-3. What is the most selling product line?
-4. What is the total revenue by month?
-5. What month had the largest COGS?
-6. What product line had the largest revenue?
-5. What is the city with the largest revenue?
-6. What product line had the largest VAT?
-7. Fetch each product line and add a column to those product line showing "Good", "Bad". Good if its greater than average sales
-8. Which branch sold more products than average product sold?
-9. What is the most common product line by gender?
-12. What is the average rating of each product line?
-
-### Sales
-
-1. Number of sales made in each time of the day per weekday
-2. Which of the customer types brings the most revenue?
-3. Which city has the largest tax percent/ VAT (**Value Added Tax**)?
-4. Which customer type pays the most in VAT?
-
-### Customer
-
-1. How many unique customer types does the data have?
-2. How many unique payment methods does the data have?
-3. What is the most common customer type?
-4. Which customer type buys the most?
-5. What is the gender of most of the customers?
-6. What is the gender distribution per branch?
-7. Which time of the day do customers give most ratings?
-8. Which time of the day do customers give most ratings per branch?
-9. Which day fo the week has the best avg ratings?
-10. Which day of the week has the best average ratings per branch?
-
-
-## Dataset and Project Links
-**Dataset Link:** [Kaggle Walmart Sales Forecasting Competition](https://github.com/NishaChandila/Walmart_sales/blob/main/WalmartSalesData.csv.csv)
-
-**SQL Project Link:** [Link to SQL Project](https://github.com/NishaChandila/Walmart_sales/blob/main/walmart.sql)
+The **SQL queries utilized to inspect and perform quality check can be found [here](#)**.  
+The **Dataset used here can be found [here](#)**.  
+The **Power BI dashboard can be found [here](#)**.
