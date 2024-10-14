@@ -76,6 +76,7 @@ The primary goal of this analysis is to provide insights into sales performance,
 
 
 The **SQL queries utilized to inspect and perform quality check can be found [here](https://github.com/NishaChandila/Walmart_sales/blob/main/walmart.sql)**.
+
 The **Power BI dashboard can be found [here](https://github.com/NishaChandila/Walmart_sales/blob/main/Walmart-Sales-Dashboard.pdf)**.
 
 ## RECOMMENDATIONS:
