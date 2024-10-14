@@ -57,6 +57,8 @@ The **Dataset used here can be found [here](https://github.com/NishaChandila/Wal
 This project analyzes three months of Walmart sales data, focusing on three key branches located in Yangon, Mandalay, and Naypyitaw. The dataset spans from January to March and includes detailed information on product lines, cost of goods sold (COGS), customer demographics, sales quantities, and unit prices.  
 The primary goal of this analysis is to provide insights into sales performance, customer behavior, and product trends. By leveraging Power BI, we have built an interactive dashboard that visualizes these trends in an intuitive and actionable way, enabling stakeholders to make informed business decisions.
 
+![Walmart Home](https://github.com/NishaChandila/project-assets/blob/main/walmart-home.jpg?raw=true)
+
 
 **Key Insights:**
 
