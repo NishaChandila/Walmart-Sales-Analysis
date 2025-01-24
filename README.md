@@ -6,9 +6,9 @@
 
 This project analyses three months of Walmart sales data from January to March, focusing on three key branches located in Yangon, Mandalay, and Naypyitaw. The dataset includes vital metrics such as product lines, cost of goods sold (COGS), tax, quantity sold, and unit price. Through this analysis, we aim to gain insights into sales performance, customer behaviors, and product trends, allowing us to make informed decisions that enhance marketing strategies and drive revenue growth.  
 
-The **SQL queries utilized to inspect and perform quality check can be found [here](https://github.com/NishaChandila/Walmart_sales/blob/main/walmart.sql)**.  
-The **Dataset used here can be found [here](https://github.com/NishaChandila/Walmart_sales/blob/main/WalmartSalesData.csv.csv)**.  
-The **Power BI dashboard can be found [here](https://github.com/NishaChandila/Walmart_sales/blob/main/Walmart-Sales-Dashboard.pdf)**.
+- Walmart Sales [SQL Queries](https://github.com/NishaChandila/Walmart_sales/blob/main/walmart.sql).  
+- Walmart Sales [Dataset](https://github.com/NishaChandila/Walmart_sales/blob/main/WalmartSalesData.csv.csv).  
+- Walmart Sales [Power BI Dashboard](https://github.com/NishaChandila/Walmart_sales/blob/main/Walmart-Sales-Dashboard.pdf).
 
 ## DATASET STRUCTURE
 
@@ -50,7 +50,7 @@ The dataset comprises three months of sales data from Walmart, specifically from
 **15. Rating:** Customer ratings for products, which can be used to gauge satisfaction and product quality.
 
 
-The **Dataset used here can be found [here](https://github.com/NishaChandila/Walmart_sales/blob/main/WalmartSalesData.csv.csv)**.
+- Walmart Sales [Dataset](https://github.com/NishaChandila/Walmart_sales/blob/main/WalmartSalesData.csv.csv).
 
 ## EXECUTIVE SUMMARY
 
@@ -76,10 +76,8 @@ The primary goal of this analysis is to provide insights into sales performance,
 
 ![Product Insights](https://github.com/NishaChandila/project-assets/blob/main/walmart3.jpg)
 
-
-The **SQL queries utilized to inspect and perform quality check can be found [here](https://github.com/NishaChandila/Walmart_sales/blob/main/walmart.sql)**.
-
-The **Power BI dashboard can be found [here](https://github.com/NishaChandila/Walmart_sales/blob/main/Walmart-Sales-Dashboard.pdf)**.
+- Walmart Sales [SQL Queries](https://github.com/NishaChandila/Walmart_sales/blob/main/walmart.sql).  
+- Walmart Sales [Power BI Dashboard](https://github.com/NishaChandila/Walmart_sales/blob/main/Walmart-Sales-Dashboard.pdf).
 
 ## RECOMMENDATIONS:
 
@@ -95,7 +93,7 @@ The **Power BI dashboard can be found [here](https://github.com/NishaChandila/Wa
 **Product Recommendations:**
 1. **Prioritize Food and Beverages**: Maintain targeted promotions and stock levels in this high-performing category to meet customer demand.
 2. **Analyze Sports and Travel Trends**: Investigate the sales drop in these categories from January to February and develop strategies to boost sales, especially since they rebounded in March.
-   
-The **SQL queries utilized to inspect and perform quality check can be found [here](https://github.com/NishaChandila/Walmart_sales/blob/main/walmart.sql)**.  
-The **Dataset used here can be found [here](https://github.com/NishaChandila/Walmart_sales/blob/main/WalmartSalesData.csv.csv)**.  
-The **Power BI dashboard can be found [here](https://github.com/NishaChandila/Walmart_sales/blob/main/Walmart-Sales-Dashboard.pdf)**.
+
+- Walmart Sales [SQL Queries](https://github.com/NishaChandila/Walmart_sales/blob/main/walmart.sql).  
+- Walmart Sales [Dataset](https://github.com/NishaChandila/Walmart_sales/blob/main/WalmartSalesData.csv.csv).  
+- Walmart Sales [Power BI Dashboard](https://github.com/NishaChandila/Walmart_sales/blob/main/Walmart-Sales-Dashboard.pdf).
